@@ -420,6 +420,11 @@ header {
   text-decoration: underline;
 }
 
+.right-section-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .womens-collections {
   width: 570px;
   height: 284px;
@@ -463,7 +468,61 @@ header {
 .bottom-section {
   width: 570px;
   height: 284px;
-  border: 2px solid red;
-  display: flex;
   margin-top: 32px;
+  display: flex;
+  column-gap: 30px;
+}
+
+.speakers-section {
+  width: 270px;
+  height: 284px;
+  border-radius: 4px;
+  background-image: url(../images/dinamic.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000000;
+  color: #fff;
+}
+
+.speakers-text {
+  width: 191px;
+  height: 85px;
+  margin: 175px 55px 24px 24px;
+}
+
+.speakers-main-t {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.speakers-desc {
+  font-size: 14px;
+  margin: 8px 0px;
+}
+
+.perfume-section {
+  width: 270px;
+  height: 284px;
+  border-radius: 4px;
+  background-color: #000000;
+  background-image: url(../images/perfume.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+.perfume-text {
+  width: 191px;
+  height: 85px;
+  margin: 175px 55px 24px 24px;
+}
+
+.perfume-main-t {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.perfume-desc {
+  font-size: 14px;
+  margin: 8px 0px;
 }
